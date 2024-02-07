@@ -38,6 +38,7 @@ function restoreName() {
 // For clearing user's display name from browser storage
 function clearName() {
     // Your code here
+    sessionStorage.removeItem('displayName');
 }
 
 /* ========================================================================= */
